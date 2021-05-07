@@ -18,8 +18,7 @@ The covariance matrix is taken as diagonal based on the assumption that the posi
 However, Q and R must be chosen carefully. The approach I took to solve this challenge was to plot the predicted measurements as well as the actual measurements using matplotlib. 
 I tuned the values of Q and R (both diagonal matrices) until the predicted measurements graph had the same shape as that of the actual measurements, but with lesser noise. 
 
-## Scope for Improvement
-### 1. A proper approach to choose Q and R 
+## Scope for Improvement: to find a better approach to choose Q and R 
 Rather than using trial and error, a better method to logically choose Q and R matrices could be explored.
 ## Conclusion
 Overall, the coding part of this task was not heavy compared to the other tasks. However, I really enjoyed learning about the Kalman filter through this task.
