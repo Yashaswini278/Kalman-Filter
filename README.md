@@ -14,8 +14,12 @@ The first row had to be stored seperately by appending [0, 0] as the initial sta
 ### 2. Choosing matrices P, Q and R
 In the task, we were asked to choose the state covariance matrix (P), noise covariance matrix (Q), and measurement error matrix (R) on our own. 
 Since, the state covariance matrix is constantly updated according to the Kalman Filtering Algorithm, it's initialisation won't affect the results much. 
-The covariance matrix is taken as diagonal based on the assumption that the position and velocity measurements have no co-relation.  
-
+The covariance matrix is taken as diagonal based on the assumption that the position and velocity measurements have no co-relation, so covariance = 0. 
+However, Q and R must be chosen carefully. The approach I took to solve this challenge was to plot the predicted measurements as well as the actual measurements using matplotlib. 
+I tuned the values of Q and R (both diagonal matrices) until the predicted measurements graph had the same shape as that of the actual measurements, but with lesser noise. 
 
 ## Scope for Improvement
+### 1. A proper approach to choose Q and R 
+Rather than using hit and trial, a better method could be adopted to logically choose Q and R matrices.
 ## Conclusion
+Overall, the coding part of this task was not heavy compared to the other tasks. However, I really enjoyed learning about the Kalman filter via this task.
