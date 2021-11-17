@@ -1,5 +1,5 @@
 # Kalman-Filter
-This task was assigned to me as part of the selection process for the Autonomous Ground Vehicle Research Group software team at IIT Kharagpur.
+The objective of this task was to accurately predict the next coordinate of an autonomous vehicle using Kalman Filtering technique for dynamic state estimation.
 ## Key Learnings
 <p> 1. Kalman Filter - Working and Application </p>
 <p> 2. Plotting graphs on matplotlib </p>
